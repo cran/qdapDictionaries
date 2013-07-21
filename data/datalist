@@ -18,12 +18,12 @@ amplification.words
 contractions
 deamplification.words
 emoticon
-env.pol
-env.power
-env.strength
-env.syl
-env.syn
 interjections
+key.pol
+key.power
+key.strength
+key.syl
+key.syn
 labMT
 negation.words
 negative.words
