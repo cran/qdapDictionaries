@@ -6,7 +6,28 @@
 #' @aliases qdapDictionaries package-qdapDictionaries
 NULL
 
-
+#' Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List
+#' 
+#' A dataset containing a vector of Grady Ward's English words augmented with 
+#' \code{\link[qdapDictionaries]{DICTIONARY}}, 
+#' \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names}{Mark Kantrowitz's names list}, 
+#' other proper nouns, and contractions.  
+#' 
+#' @details A dataset containing a vector of Grady Ward's English words 
+#' augmented with proper nouns (U.S. States, Countries, Mark Kantrowitz's Names List, 
+#' and months) and contractions. That dataset is augmented for spell checking purposes. 
+#'  
+#' @docType data 
+#' @keywords datasets 
+#' @name GradyAugmented
+#' @usage data(GradyAugmented) 
+#' @format A vector with 122806 elements 
+#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
+#' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
+#' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
+#' is available \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{here} 
+#' per the author's request.
+NULL
 
 #' Buckley & Salton Stopword List
 #' 
@@ -36,7 +57,7 @@ NULL
 #' 
 #' @note This data set is based on the Nettalk Corpus but has some researcher 
 #' word deletions and additions based on the needs of the 
-#' \code{syllable_sum} algorithm.
+#' \code{\link[qdap]{syllable_sum}} algorithm.
 #' 
 #' @details 
 #' \itemize{ 
@@ -257,7 +278,7 @@ NULL
 #' @keywords datasets 
 #' @name contractions 
 #' @usage data(contractions) 
-#' @format A data frame with 66 rows and 2 variables 
+#' @format A data frame with 69 rows and 2 variables 
 NULL
 
 
@@ -478,40 +499,18 @@ NULL
 #' \url{http://www.plosone.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pone.0026752.s001}
 NULL
  
-#' Synonyms Data Set
-#' 
-#' A dataset containing words and possible synonym matches.
-#' 
-#' @details 
-#' \itemize{ 
-#'   \item word. The look up word. 
-#'   \item match.string. A single string of possible matches.
-#' } 
-#' 
-#' @note Intended for internal use with the \code{\link[qdap]{synonyms}} function.
-#' @docType data 
-#' @keywords datasets 
-#' @name SYNONYM 
-#' @usage data(SYNONYM) 
-#' @format A data frame with 11050 rows and 2 variables 
-#' @references Scraped from:
-#' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
-#' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
-#' is the unique words from the combination of \code{DICTIONARY} and
-#' \code{labMT}.
-NULL
  
 
 #' Synonym Lookup Key
 #' 
-#' A dataset containing a synonym lookup key (see \code{SYNONYM}).
+#' A dataset containing a synonym lookup key.
 #' 
 #' 
 #' @docType data 
 #' @keywords datasets 
 #' @name key.syn 
 #' @usage data(key.syn) 
-#' @format A hash keyt with words and synonyms.
+#' @format A hash key with 10976 rows and 2 variables (words and synonyms).
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
@@ -540,7 +539,7 @@ NULL
 #' @keywords datasets 
 #' @name NAMES 
 #' @usage data(NAMES) 
-#' @format A data frame with 5494 rows and 7 variables 
+#' @format A data frame with 5493 rows and 7 variables 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
  
@@ -561,7 +560,7 @@ NULL
 #' @keywords datasets 
 #' @name NAMES_SEX 
 #' @usage data(NAMES_SEX) 
-#' @format A data frame with 5163 rows and 3 variables 
+#' @format A data frame with 5162 rows and 3 variables 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
 
