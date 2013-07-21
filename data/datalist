@@ -19,6 +19,8 @@ contractions
 deamplification.words
 emoticon
 env.pol
+env.power
+env.strength
 env.syl
 env.syn
 interjections
@@ -26,4 +28,8 @@ labMT
 negation.words
 negative.words
 positive.words
+power.words
 preposition
+strong.words
+submit.words
+weak.words

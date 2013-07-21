@@ -421,7 +421,6 @@ NULL
 #' 
 #' A dataset containing a vector of common prepositions.
 #' 
-#' 
 #' @docType data 
 #' @keywords datasets 
 #' @name preposition 
@@ -534,7 +533,7 @@ NULL
 #'   \item gender2. Gender of the combined male/female list with "B" in place of 
 #'   overlapping (M/F) names.
 #'   \item pred.sex. Predicted gender of the names with B's in \code{gender2} 
-#'   repalced with the gender that had a higher \code{per.freq}.
+#'   replaced with the gender that had a higher \code{per.freq}.
 #' } 
 #' 
 #' @docType data 
@@ -555,7 +554,7 @@ NULL
 #'   \item gender2. Gender of the combined male/female list with "B" in place of 
 #'   overlapping (M/F) names.
 #'   \item pred.sex. Predicted gender of the names with B's in \code{gender2} 
-#'   repalced with the gender that had a higher \code{per.freq}.
+#'   replaced with the gender that had a higher \code{per.freq}.
 #' } 
 #' 
 #' @docType data 
@@ -577,7 +576,7 @@ NULL
 #'   \item gender2. Gender of the combined male/female list with "B" in place of 
 #'   overlapping (M/F) names.
 #'   \item pred.sex. Predicted gender of the names with B's in \code{gender2} 
-#'   repalced with the gender that had a higher \code{per.freq}.
+#'   replaced with the gender that had a higher \code{per.freq}.
 #' } 
 #' 
 #' @docType data 
@@ -587,3 +586,86 @@ NULL
 #' @format A list with 26 elements 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
+
+
+#' Words that Indicate Strength
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating strength.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name strong.words 
+#' @usage data(strong.words) 
+#' @format A vector with 1474 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+NULL
+ 
+#' Words that Indicate Weakness
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating weakness.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name weak.words 
+#' @usage data(weak.words) 
+#' @format A vector with 647 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Words that Indicate Power
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating power.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name power.words 
+#' @usage data(power.words) 
+#' @format A vector with 624 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Words that Indicate Submission
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating submission.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name submit.words 
+#' @usage data(submit.words) 
+#' @format A vector with 262 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Strength Lookup Environment
+#' 
+#' A dataset containing a strength lookup environment. 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name env.strength 
+#' @usage data(env.strength) 
+#' @format A environment with  
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Power Lookup Environment
+#' 
+#' A dataset containing a power lookup environment.
+#' 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name env.power 
+#' @usage data(env.power) 
+#' @format A environment with  
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+
