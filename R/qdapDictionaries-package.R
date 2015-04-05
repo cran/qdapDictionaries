@@ -22,7 +22,7 @@ NULL
 #' @name GradyAugmented
 #' @usage data(GradyAugmented) 
 #' @format A vector with 122806 elements 
-#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
+#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org} \cr \cr
 #' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
 #' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
 #' is available \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{here} 
@@ -278,7 +278,7 @@ NULL
 #' @keywords datasets 
 #' @name contractions 
 #' @usage data(contractions) 
-#' @format A data frame with 69 rows and 2 variables 
+#' @format A data frame with 70 rows and 2 variables 
 NULL
 
 
@@ -540,7 +540,7 @@ NULL
 #' @name NAMES 
 #' @usage data(NAMES) 
 #' @format A data frame with 5493 rows and 7 variables 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
 NULL
  
 #' First Names and Predictive Gender (U.S.)
@@ -561,7 +561,7 @@ NULL
 #' @name NAMES_SEX 
 #' @usage data(NAMES_SEX) 
 #' @format A data frame with 5162 rows and 3 variables 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
 NULL
 
 #' First Names and Predictive Gender (U.S.) List
@@ -583,7 +583,23 @@ NULL
 #' @name NAMES_LIST 
 #' @usage data(NAMES_LIST) 
 #' @format A list with 26 elements 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
+NULL
+
+#' Function Words
+#' 
+#' A vector of function words from 
+#' \href{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}{John and Muriel Higgins's list} 
+#' used for the text game ECLIPSE.  The lest is augmented with additional 
+#' contractions from \code{\link[qdapDictionaries]{contractions}}.
+#' 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name function.words 
+#' @usage data(function.words) 
+#' @format A vector with 350 elements 
+#' @references \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
 NULL
 
 
@@ -668,3 +684,37 @@ NULL
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
 
+#' Alemany's Discourse Markers
+#' 
+#' A dataset containing discourse markers
+#' 
+#' @details A dictionary of \emph{discourse markers} from 
+#' \href{http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf}{Alemany (2005)}. 
+#' "In this lexicon, discourse markers are characterized by their structural 
+#' (continuation or elaboration) and semantic (revision, cause, equality, 
+#' context) meanings, and they are also associated to a morphosyntactic class 
+#' (part of speech, PoS), one of adverbial (A), phrasal (P) or conjunctive (C)...
+#' Sometimes a discourse marker is \bold{underspecified} with respect to a 
+#' meaning. We encode this with a hash. This tends to happen with structural 
+#' meanings, because these meanings can well be established by discursive 
+#' mechanisms other than discourse markers, and the presence of the discourse 
+#' marker just reinforces the relation, whichever it may be." (p. 191).
+#' \itemize{ 
+#'   \item marker. The discourse marker
+#'   \item type. The semantic type (typically overlaps with \code{semantic} except in the special types
+#'   \item structural. How the marker is used structurally
+#'   \item semantic. How the marker is used semantically
+#'   \item pos. Part of speech: adverbial (A), phrasal (P) or conjunctive (C)
+#' } 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name discourse.markers.alemany 
+#' @usage data(discourse.markers.alemany) 
+#' @format A data frame with 97 rows and 5 variables 
+#' @references Alemany, L. A. (2005). Representing discourse for automatic text summarization via 
+#' shallow NLP techniques (Unpublished doctoral dissertation). Universitat de Barcelona, Barcelona.\cr 
+#' \cr
+#' \url{http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf} \cr
+#' \url{http://russell.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/#description}
+NULL

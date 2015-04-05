@@ -17,12 +17,35 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+qdapDictionaries 1.0.5
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `contractions` did not contain "we've" but erroneously contained "what did" 
+  rather than "what'd" and "when" rather than "when'd" = "when did".
+
+* The data sets `emoticon` and `abbreviations` had the columns stored as `factor`.  
+  These columns have been changed to `character`.
+
+NEW FEATURES
+
+* `function.words` a list of function words added from: http://myweb.tiscali.co.uk/wordscape/museum/funcword.html
+
+* `discourse.markers.alemany` a list of Aalemany's (2005) discourse markers 
+  added from: http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf
+
+CHANGES
+
+* The **qdap** package is no longer in Suggests: in the DESCRIPTION file.
+
+
 qdapDictionaries 1.0.2
 ----------------------------------------------------------------
 
 BUG FIXES
 
-* `key.syn` contained antonyms and elemets the were error messages (character).
+* `key.syn` contained antonyms and elements that were error messages (character).
   This has been fixed.  Reference issue #2. (Jingjing Zou)
 
 NEW FEATURES
@@ -30,13 +53,10 @@ NEW FEATURES
 * `GradyAugmented` was added.  This augmented Grady data set is a large list of 
  known English words and proper nouns.
 
-MINOR FEATURES
-
 IMPROVEMENTS
 
 * `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
 
-CHANGES
 
 qdapDictionaries 1.0.0 - 1.0.1
 ----------------------------------------------------------------
@@ -69,4 +89,5 @@ First version sent to CRAN
 qdapDictionaries 0.0.1
 ----------------------------------------------------------------
 
-The dictionaries and word lists previously found in qdap have been moved to a separate package, qdapDictionaries.  This is the first installment of the package.
+The dictionaries and word lists previously found in **qdap** have been moved to a separate package, qdapDictionaries.  This is the first instalment of the package.
+
