@@ -1,9 +1,9 @@
-b35c34ac7d250700f2c67936c118308b *DESCRIPTION
+bb6ade3cc2b85bac29ef9267428a6d33 *DESCRIPTION
 8470cdc30e9854d83d6250d777d58b3d *NAMESPACE
-08b1d9a2863ace773f56796d27982a0d *NEWS
-d78abe6c0940d0cac2b810f326a37715 *R/left.just.R
+247c25abdf82e671aefd4e98d499d3d5 *NEWS
+4563a02be7bc08c23ba41894498f7d9f *R/left.just.R
 bfa9d63620a121d36bfbeb9e399902bb *R/qdapDictionaries-package.R
-4fcc6deab61f294117cf257277508355 *R/view_data.R
+47917234b1ec6c544c14d39880d15e86 *R/view_data.R
 8021678b7dfae2ebdbbf43f7900bcaa4 *README.md
 c8ee7aa83817b7a7fc1cb4599e9d3aec *data/BuckleySaltonSWL.rda
 f607cc04013375d1f378585a4a6baeca *data/DICTIONARY.rda
@@ -83,5 +83,5 @@ ab59001f87639817899bb77ec88de2ba *man/print.view_data.Rd
 f112af430e57f66cd2bf61d0eac4e9dc *man/qdapDictionaries.Rd
 93e31a43698fa498a4a2608b4b8a4e52 *man/strong.words.Rd
 df1d851bf25ae0a9c6f7e399e7b70179 *man/submit.words.Rd
-cbf91c2fd02b2a161733979fc0756848 *man/view_data.Rd
+d619037117e4d3729d6d7e7d3d8e4f7d *man/view_data.Rd
 b225d393b27b30705caab21fd690c163 *man/weak.words.Rd
